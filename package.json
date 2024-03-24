@@ -1,10 +1,10 @@
 {
   "name": "zscli-number-guessing",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "This is cli based numbers guessing game",
   "main": "index.js",
   "type": "module",
-  "publicconfig":{
+  "publicconfig": {
     "access": "public"
   },
   "bin": "index.js",
@@ -14,7 +14,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.16"
+    "inquirer": "^9.2.16",
+    "zscli-number-guessing": "^1.0.0"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"

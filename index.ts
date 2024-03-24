@@ -1,5 +1,6 @@
-#!usr/bin/env Node
+#!/usr/bin/env node
 import inquirer from "inquirer"
+console.log ("welcome to cli-Number-Guessing Game");
 
 const randomNumber=Math.floor(Math.random() * 6 + 1);
 const answers = await inquirer.prompt([
